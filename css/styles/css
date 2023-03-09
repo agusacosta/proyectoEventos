@@ -1,0 +1,414 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/*Nav*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+  background-color: #151515;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a {
+  font-weight: 600;
+  padding-right: 10px;
+}
+nav :hover {
+  color: #979797;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    padding: 10px 0px;
+  }
+}
+/*Footer*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: #151515;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.copy {
+  margin-right: 20px;
+  color: white;
+}
+
+/*Comentarios*/
+.contenedor_comentarios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.testimonios__caja {
+  width: 500px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.perfil_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 30px;
+}
+.perfil_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: center;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.name_user {
+  display: flex;
+  flex-direction: column;
+}
+.name_user strong {
+  color: #3d3d3d;
+  font-size: 1.3rem;
+}
+.name_user span {
+  color: #979797;
+  font-size: 1.1rem;
+}
+
+.reseñas {
+  color: #f9d71c;
+}
+
+.caja_top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.comentario p {
+  color: #4b4b4b;
+}
+
+.exp {
+  margin: 20px 20px 20px 20px;
+  border: 2px solid black;
+}
+.exp h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.exp p {
+  display: flex;
+  margin: 0px 20px 0px 20px;
+}
+
+/*Contacto*/
+.form-contact {
+  width: 450px;
+  margin: auto;
+  background-color: #151515;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  border-radius: 7px;
+  margin-bottom: 50px;
+}
+
+.h2-contact {
+  color: white;
+  text-align: center;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.input-contact, .textarea-contact {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+}
+
+.textarea-contact {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+.btn-contact {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border-radius:  5px;
+}
+
+/*Inicio*/
+.inicio_b {
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/30/23/32/champagner-1071356_1280.jpg);
+}
+
+.inicio {
+  background-image: linear-gradient(rgba(97, 93, 93, 0.5), rgba(97, 93, 93, 0.5));
+}
+.inicio h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  color: white;
+}
+.inicio p {
+  display: flex;
+  margin: 0px 50px 0px 50px;
+  text-align: justify;
+  color: white;
+}
+.inicio div {
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn1 {
+  display: inline-block;
+  margin: 20px 0px 50px 450px;
+  padding: 0.8rem 3rem;
+  border-radius: 5rem;
+  background: #151515;
+  cursor: pointer;
+  color: white;
+  transform: scale(1.2rem);
+}
+
+.btn2 {
+  display: inline-block;
+  margin: 20px 0px 20px 50px;
+  padding: 0.8rem 3rem;
+  border-radius: 5rem;
+  background: #151515;
+  cursor: pointer;
+  color: white;
+  transform: scale(1.2rem);
+}
+
+/*salones*/
+.contenedor_titulo-salones {
+  background-image: linear-gradient(rgba(97, 93, 93, 0.5), rgba(97, 93, 93, 0.5));
+  margin: 20px 20px 20px 20px;
+  border: 2px solid black;
+}
+.contenedor_titulo-salones h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: 50px;
+  color: white;
+}
+.contenedor_titulo-salones p {
+  display: flex;
+  margin: 0px 50px 0px 50px;
+  text-align: justify;
+  font-size: 20px;
+  color: white;
+}
+.contenedor_titulo-salones div {
+  margin-bottom: 50px;
+}
+
+.contenedor-salones div {
+  margin-bottom: 50px;
+}
+.contenedor-salones h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.contenedor-salones img {
+  width: 600px;
+  margin-bottom: 20px;
+  border: 4px solid black;
+}
+.contenedor-salones iframe {
+  width: 600px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+.contenedor-salones p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.contenedores-map_img {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.body-salones {
+  font-family: "Poppins", sans-serif;
+  background-image: url(https://cdn.pixabay.com/photo/2015/11/22/19/04/crowd-1056764_1280.jpg);
+}
+
+/*cathering*/
+.titulo-catering {
+  margin: 20px 20px 20px 20px;
+  border: 2px solid black;
+}
+
+.caja1, .caja2, .caja3 {
+  border: 4px solid black;
+  background-color: rgb(185, 183, 183);
+  text-align: center;
+  line-height: 50px;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.p-h2__catering {
+  margin-bottom: 50px;
+}
+
+.h1-catering, .h2-catering {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.p-catering, .p-h2__catering {
+  margin: 0px 50px 30px 50px;
+}
+
+.contenedor_img-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-auto-rows: minmax(500px, auto);
+  gap: 20px;
+  padding: 20px;
+}
+
+.img-grid1 {
+  background-image: url(https://mirageeventos.net/a/galerias/amelie/112.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-grid2 {
+  background-image: url(https://images-ext-2.discordapp.net/external/pcexzi5v9Jt-kEEakkXoNSUvjpvX7Kzo78zYSV31y8M/%3Fixlib%3Drb-4.0.3%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D1470%26q%3D80/https/images.unsplash.com/photo-1414235077428-338989a2e8c0?width=720&height=480);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-grid3 {
+  background-image: url(https://images-ext-2.discordapp.net/external/QISMarrFbLVjgatIlDlOy865m5BqkgjTSvV15cr3rrU/%3Fixlib%3Drb-4.0.3%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D1476%26q%3D80/https/images.unsplash.com/photo-1525265332434-d52e2314161d?width=724&height=480);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-grid4 {
+  background-image: url(https://images.unsplash.com/photo-1645914401798-1f93bb80b6ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-grid5 {
+  background-image: url(https://mirageeventos.net/a/galerias/amelie/113.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-grid6 {
+  background-image: url(https://images.unsplash.com/photo-1666307599075-eb692d063dac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=css.map */
